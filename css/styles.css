@@ -1,0 +1,102 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 16px;
+  color: #000;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  background-color: #737373;
+  text-align: center;
+  padding: 2% 0;
+  width: 100%;
+}
+
+.header h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Content: Instructions and List */
+
+.bottom {
+  background-color: rgba(255,187,0,0.5);
+  margin: 0 auto;
+  /*text-align: center;*/
+  width: 100%;
+  padding: 2% 0;
+}
+
+.content {
+  text-align: center;
+}
+
+.instructions p {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  background-color: rgba(115,115,115,0.5);
+  margin: 0 auto;
+  margin-top: 25px;
+  min-width: 400px;
+  max-width: 400px;
+  height: 35px;
+  padding: 10px 0;
+}
+
+.item p {
+  padding: 10px;
+  margin: 0;
+}
+
+.list {
+  color: #fff;
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list ul li {
+  font-weight: 600;
+  line-height: 35px;
+  background-color: rgba(18,178,150,0.5);
+  height: 35px;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+
+.list ul li:first-child, .list ul li:nth-child(2) {
+  background-color: #11594B;
+  text-decoration: line-through;
+}
+
+.right {
+  opacity: 0.75;
+  padding-right: 5px;
+  float: right;
+  cursor: pointer;
+  color: white;
+  vertical-align: middle;
+}
+
+.left {
+  opacity: 0.75;
+  padding-left: 5px;
+  float: left;
+  cursor: pointer;
+  color: white;
+  vertical-align: middle;
+}
