@@ -141,6 +141,7 @@ hard code */
 
 @media only screen and (max-width: 400px) {
   body {
+    width: 100%;
     max-width: 450px;
   }
   .icon img {
