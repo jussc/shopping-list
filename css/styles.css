@@ -140,7 +140,7 @@ hard code */
 }
 
 @media only screen and (max-width: 400px) {
-  .header, .bottom {
+  .header, .bottom, .item, .list {
     width: 100%;
   }
   .icon img {
