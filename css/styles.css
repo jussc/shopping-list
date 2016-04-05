@@ -138,3 +138,13 @@ hard code */
   color: white;
   vertical-align: middle;
 }
+
+@media only screen and (max-width: 450px) {
+  .icon img {
+    width: 60px;
+    height: 60px;
+  }
+  .instructions p {
+    padding: 0 2%;
+  }
+}
