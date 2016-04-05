@@ -139,7 +139,10 @@ hard code */
   vertical-align: middle;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
+  body {
+    max-width: 450px;
+  }
   .icon img {
     width: 60px;
     height: 60px;
