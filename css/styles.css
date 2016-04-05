@@ -51,7 +51,7 @@ body {
   line-height: 30px;
   font-size: 18px;
   margin-top: 25px;
-  min-width: 400px;
+ /* min-width: 400px;*/
   max-width: 400px;
   height: 25px;
   padding: 10px 0;
@@ -79,7 +79,7 @@ input:focus {
 .list {
   color: #fff;
   margin: 0 auto;
-  min-width: 400px;
+  /*min-width: 400px;*/
   max-width: 400px;
 }
 
