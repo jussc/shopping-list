@@ -42,19 +42,38 @@ body {
   padding: 0;
 }
 
-.item {
-  background-color: rgba(115,115,115,0.5);
-  margin: 0 auto;
+#add-item {
+  background-color: rgba(115,115,115,0.75);
+  border: none;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Inconsolata', serif;
+  line-height: 30px;
+  font-size: 18px;
   margin-top: 25px;
   min-width: 400px;
   max-width: 400px;
-  height: 35px;
+  height: 25px;
   padding: 10px 0;
 }
 
-.item p {
-  padding: 10px;
-  margin: 0;
+::-webkit-input-placeholder {
+ font-size: 18px;
+ color: #FFF;
+ text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.error {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  color: #FFF;
+  background-color: red;
+  display: none;
 }
 
 .list {
@@ -77,10 +96,29 @@ body {
   padding: 5px 0;
   vertical-align: middle;
 }
+/* this style was for the first part of the project when we needed to 
+hard code */
 
-.list ul li:first-child, .list ul li:nth-child(2) {
+/*.list ul li:first-child, .list ul li:nth-child(2) {
   background-color: #11594B;
   text-decoration: line-through;
+}*/
+
+.done {
+  text-decoration: line-through;
+  background-color: #11594B !important;
+}
+
+.clear {
+  background-color: white;
+  color: #000;
+  width: 125px;
+  height: auto;
+  font-family: 'Inconsolata';
+  font-size: 18px;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid #737373;
 }
 
 .right {
